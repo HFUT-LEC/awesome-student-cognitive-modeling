@@ -41,131 +41,99 @@
 ## KT
 
 ### Tradition methods
-
-| Name       | Published                 | Paper                                                                                                                                                                           | 
-|:----------:|:-------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| BKT        | UMUAI 1994                | [Bayesian knowledge tracing](https://link.springer.com/article/10.1007/BF01099821)                                                                                              | 
-| LFA        | ICITS 2006                | [Learning Factors Analysis – A General Method for Cognitive Model Evaluation and Improvement](https://link.springer.com/chapter/10.1007/11774303_17)                            | 
-| AFM        | ITS 2008                  | [Comparing two IRT models for conjunctive skills](https://dl.acm.org/doi/10.1007/978-3-540-69132-7_111)                                                                         | 
-| PFA        | 2009                      | [Performance Factors Analysis --A New Alternative to Knowledge Tracing](https://dl.acm.org/doi/10.5555/1659450.1659529)                                                         | 
-| HIRT, TIRT | EDM 2016                  | [Back to the basics: Bayesian extensions of IRT outperform neural networks for proficiency estimation](https://www.educationaldatamining.org/EDM2016/proceedings/paper_145.pdf) | 
-| DBKT/DBN   | TLT 2017                  | [Dynamic Bayesian Networks for Student Modeling](https://dl.acm.org/doi/10.1109/TLT.2017.2689017)                                                                               | 
-| KTM        | AAAI 2019                 | [Knowledge tracing machines: Factorization machines for knowledge tracing](https://arxiv.org/abs/1811.03388)                                                                    | 
-| KTM-DLF    | Applied Intelligence 2020 | [Modeling learner’s dynamic knowledge construction procedure and cognitive item difficulty for knowledge tracing](https://link.springer.com/article/10.1007/s10489-020-01756-7) | 
-| IKT        | AAAI 2022                 | [Interpretable Knowledge Tracing: Simple and Efficient Student Modeling with Causal Relations](https://ojs.aaai.org/index.php/AAAI/article/view/21560)                          | 
+- (UMUAI 1994) [Bayesian knowledge tracing](https://link.springer.com/article/10.1007/BF01099821) BKT
+- (ICITS 2006) [Learning Factors Analysis – A General Method for Cognitive Model Evaluation and Improvement](https://link.springer.com/chapter/10.1007/11774303_17) LFA
+- (ITS 2008) [Comparing two IRT models for conjunctive skills](https://dl.acm.org/doi/10.1007/978-3-540-69132-7_111) AFM
+- (2009) [Performance Factors Analysis --A New Alternative to Knowledge Tracing](https://dl.acm.org/doi/10.5555/1659450.1659529) PFA
+- (EDM 2016) [Back to the basics: Bayesian extensions of IRT outperform neural networks for proficiency estimation](https://www.educationaldatamining.org/EDM2016/proceedings/paper_145.pdf) HIRT, TIRT
+- (TLT 2017) [Dynamic Bayesian Networks for Student Modeling](https://dl.acm.org/doi/10.1109/TLT.2017.2689017) DBKT/DBN
+- (AAAI 2019) [Knowledge tracing machines: Factorization machines for knowledge tracing](https://arxiv.org/abs/1811.03388) KTM
+- (Applied Intelligence 2020) [Modeling learner’s dynamic knowledge construction procedure and cognitive item difficulty for knowledge tracing](https://link.springer.com/article/10.1007/s10489-020-01756-7) KTM-DLF
+- (AAAI 2022) [Interpretable Knowledge Tracing: Simple and Efficient Student Modeling with Causal Relations](https://ojs.aaai.org/index.php/AAAI/article/view/21560) IKT
 
 ### Deep learning methods
-
-| Name     | Published  | Paper                                                                                                                                                                           | 
-|:--------:|:----------:|:-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| DKT      | NIPS 2015  | [Deep knowledge tracing](https://proceedings.neurips.cc/paper_files/paper/2015/hash/bac9162b47c56fc8a4d2a519803d51b3-Abstract.html)                                             | 
-| DKT+     | L@S 2018   | [Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization](https://arxiv.org/pdf/1806.02180.pdf)                                              | 
-| DKT_DSC  | ICDM 2018  | [Deep knowledge tracing and dynamic student classification for knowledge tracing](https://ieeexplore.ieee.org/abstract/document/8594965)                                        |
-| Deep-IRT | EDM 2019   | [Deep-IRT: Make Deep Learning Based Knowledge Tracing Explainable Using Item Response Theory](https://arxiv.org/abs/1904.11738)                                                 | 
-| KQN      | LAK 2019   | [Knowledge query network for knowledge tracing: How knowledge interacts with skills](https://dl.acm.org/doi/abs/10.1145/3303772.3303786)                                        | 
-| IEKT     | SIGIR 2021 | [Tracing Knowledge State with Individual Cognition and Acquisition Estimation](https://dl.acm.org/doi/10.1145/3404835.3462827)                                                  | 
-| CL4KT    | WWW 2022   | [Contrastive learning for knowledge tracing](https://dl.acm.org/doi/abs/10.1145/3485447.3512105)                                                                                | 
-| AdaptKT  | WSDM 2022  | [AdaptKT: A domain adaptable method for knowledge tracing](https://dl.acm.org/doi/10.1145/3488560.3498379)                                                                      | 
-| QIKT     | AAAI 2023  | [Improving Interpretability of Deep Sequential Knowledge Tracing Models with Question-centric Cognitive Representations](https://arxiv.org/abs/2302.06885)                      | 
-| FDKT     | WSDM 2021  | [Federated Deep Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3437963.3441747)                                                                                          | 
-| DIMKT    | SIGIR 2022 | [Assessing Student's Dynamic Knowledge State by Exploring the Question Difficulty Effect](https://dl.acm.org/doi/abs/10.1145/3477495.3531939)                                   | 
-| TC-MIRT  | KBS 2021   | [Time-and-Concept Enhanced Deep Multidimensional Item Response Theory for interpretable Knowledge Tracing](https://www.sciencedirect.com/science/article/pii/S0950705121000824) | 
-| SFKT     | CIKM 2023  | [No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths](https://dl.acm.org/doi/abs/10.1145/3583780.3614988)            | 
-| CMVF     | ICDM 2023  | [Cognition-Mode Aware Variational Representation Learning Framework for Knowledge Tracing](https://arxiv.org/abs/2309.01179)                                                    | 
+- (NIPS 2015) [Deep knowledge tracing](https://proceedings.neurips.cc/paper_files/paper/2015/hash/bac9162b47c56fc8a4d2a519803d51b3-Abstract.html) DKT
+- (L@S 2018) [Addressing Two Problems in Deep Knowledge Tracing via Prediction-Consistent Regularization](https://arxiv.org/pdf/1806.02180.pdf) DKT+
+- (ICDM 2018) [Deep knowledge tracing and dynamic student classification for knowledge tracing](https://ieeexplore.ieee.org/abstract/document/8594965) DKT_DSC
+- (EDM 2019) [Deep-IRT: Make Deep Learning Based Knowledge Tracing Explainable Using Item Response Theory](https://arxiv.org/abs/1904.11738) Deep-IRT
+- (LAK 2019) [Knowledge query network for knowledge tracing: How knowledge interacts with skills](https://dl.acm.org/doi/abs/10.1145/3303772.3303786) KQN
+- (SIGIR 2021) [Tracing Knowledge State with Individual Cognition and Acquisition Estimation](https://dl.acm.org/doi/10.1145/3404835.3462827) IEKT
+- (WWW 2022) [Contrastive learning for knowledge tracing](https://dl.acm.org/doi/abs/10.1145/3485447.3512105) CL4KT
+- (WSDM 2022) [AdaptKT: A domain adaptable method for knowledge tracing](https://dl.acm.org/doi/10.1145/3488560.3498379) AdaptKT
+- (AAAI 2023) [Improving Interpretability of Deep Sequential Knowledge Tracing Models with Question-centric Cognitive Representations](https://arxiv.org/abs/2302.06885) QIKT
+- (WSDM 2021) [Federated Deep Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3437963.3441747) FDKT
+- (SIGIR 2022) [Assessing Student's Dynamic Knowledge State by Exploring the Question Difficulty Effect](https://dl.acm.org/doi/abs/10.1145/3477495.3531939) DIMKT
+- (KBS 2021) [Time-and-Concept Enhanced Deep Multidimensional Item Response Theory for interpretable Knowledge Tracing](https://www.sciencedirect.com/science/article/pii/S0950705121000824) TC-MIRT
+- (CIKM 2023) [No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths](https://dl.acm.org/doi/abs/10.1145/3583780.3614988) SFKT
+- (ICDM 2023) [Cognition-Mode Aware Variational Representation Learning Framework for Knowledge Tracing](https://arxiv.org/abs/2309.01179) CMVF
 
 ### Deep learning-memory aware
-
-| Name  | Published  | Paper                                                                                                                            |
-|:-----:|:----------:|:--------------------------------------------------------------------------------------------------------------------------------:|
-| DKVMN | WWW 2017   | [Dynamic Key-Value Memory Networks for Knowledge Tracing](https://arxiv.org/pdf/1611.08108.pdf)                                  | 
-| SKVMN | SIGIR 2019 | [Knowledge Tracing with Sequential Key-Value Memory Networks](https://dl.acm.org/doi/10.1145/3331184.3331195)                    |
-| DLKT  | TOIS 2023  | [MAN: Memory-augmented Attentive Networks for Deep Learning-based Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3589340) | 
+- (WWW 2017) [Dynamic Key-Value Memory Networks for Knowledge Tracing](https://arxiv.org/pdf/1611.08108.pdf) DKVMN
+- (SIGIR 2019) [Knowledge Tracing with Sequential Key-Value Memory Networks](https://dl.acm.org/doi/10.1145/3331184.3331195) SKVMN
+- (TOIS 2023) [MAN: Memory-augmented Attentive Networks for Deep Learning-based Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3589340) DLKT
 
 ### Deep learning-attention aware
-
-| Name         | Published           | Paper                                                                                                                                             | 
-|:------------:|:-------------------:|:-------------------------------------------------------------------------------------------------------------------------------------------------:|
-| SAKT         | EDM 2019            | [A self-attentive model for knowledge tracing](https://experts.umn.edu/en/publications/a-self-attentive-model-for-knowledge-tracing)              | 
-| AKT          | KDD 2020            | [Context-Aware Attentive Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3394486.3403282)                                                   | 
-| CKT          | SIGIR 2020          | [Convolutional Knowledge Tracing: Modeling Individualization in Student Learning Process](https://dl.acm.org/doi/abs/10.1145/3397271.3401288)     | 
-| SAINT        | L@S 2020            | [Towards an Appropriate Query, Key, and Value Computation for Knowledge Tracing](https://dl.acm.org/doi/10.1145/3386527.3405945)                  | 
-| SAINT+       | LAK 2021            | [SAINT+: Integrating Temporal Features for EdNet Correctness Prediction](https://dl.acm.org/doi/10.1145/3448139.3448188)                          | 
-| ATKT         | ACM MM 2021         | [Enhancing Knowledge Tracing via Adversarial Training](https://arxiv.org/pdf/2108.04430.pdf)                                                      | 
-| CoKT         | WSDM 2022           | [Improving Knowledge Tracing with Collaborative Information](https://dl.acm.org/doi/abs/10.1145/3488560.3498374)                                  | 
-| SimpleKT     | ICLR 2023           | [simpleKT: A Simple But Tough-to-Beat Baseline for Knowledge Tracing](https://arxiv.org/abs/2302.06881)                                           | 
-| DTransformer | WWW 2023            | [Tracing Knowledge Instead of Patterns: Stable Knowledge Tracing with Diagnostic Transformer](https://yxonic.github.io/pdfs/yin2023tracing.pdf)   | 
-| DAKTN        | AAAI 2023           | [Deep Attentive Model for Knowledge Tracing](https://ojs.aaai.org/index.php/AAAI/article/view/26214)                                              | 
-| MAKT         | World Wide Web 2023 | [Integrating fine-grained attention into multi-task learning for knowledge tracing](https://link.springer.com/article/10.1007/s11280-023-01190-y) | 
+- (EDM 2019) [A self-attentive model for knowledge tracing](https://experts.umn.edu/en/publications/a-self-attentive-model-for-knowledge-tracing) SAKT
+- (KDD 2020) [Context-Aware Attentive Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3394486.3403282) AKT
+- (SIGIR 2020) [Convolutional Knowledge Tracing: Modeling Individualization in Student Learning Process](https://dl.acm.org/doi/abs/10.1145/3397271.3401288) CKT
+- (L@S 2020) [Towards an Appropriate Query, Key, and Value Computation for Knowledge Tracing](https://dl.acm.org/doi/10.1145/3386527.3405945) SAINT
+- (LAK 2021) [SAINT+: Integrating Temporal Features for EdNet Correctness Prediction](https://dl.acm.org/doi/10.1145/3448139.3448188) SAINT+
+- (ACM MM 2021) [Enhancing Knowledge Tracing via Adversarial Training](https://arxiv.org/pdf/2108.04430.pdf) ATKT
+- (WSDM 2022) [Improving Knowledge Tracing with Collaborative Information](https://dl.acm.org/doi/abs/10.1145/3488560.3498374) CoKT
+- (ICLR 2023) [simpleKT: A Simple But Tough-to-Beat Baseline for Knowledge Tracing](https://arxiv.org/abs/2302.06881) SimpleKT
+- (WWW 2023) [Tracing Knowledge Instead of Patterns: Stable Knowledge Tracing with Diagnostic Transformer](https://yxonic.github.io/pdfs/yin2023tracing.pdf) DTransformer
+- (AAAI 2023) [Deep Attentive Model for Knowledge Tracing](https://ojs.aaai.org/index.php/AAAI/article/view/26214) DAKTN
+- (World Wide Web 2023) [Integrating fine-grained attention into multi-task learning for knowledge tracing](https://link.springer.com/article/10.1007/s11280-023-01190-y) MAKT
 
 ### Deep learning+time(forget)-aware
-
-| Name      | Published    | Paper                                                                                                                                                                                                                                               | 
-|:---------:|:------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| DKTForget | WWW 2019     | [Augmenting Knowledge Tracing by Considering Forgetting Behavior](https://dl.acm.org/doi/10.1145/3308558.3313565)                                                                                                                                   | 
-| LPKT      | KDD 2021     | [Learning Process-consistent Knowledge Tracing](http://staff.ustc.edu.cn/~qiliuql/files/Publications/Shuanghong-Sheng-KDD21.pdf)                                                                                                                    | 
-| HawkesKT  | WSDM 2021    | [Temporal cross-effects in knowledge tracing](https://dl.acm.org/doi/10.1145/3437963.3441802)                                                                                                                                                       | 
-| LFBKT     | CIKM 2022    | [Knowledge Tracing Model with Learning and Forgetting Behavior](https://dl.acm.org/doi/abs/10.1145/3511808.3557622)                                                                                                                                 | 
-| CT-NCM    | IJCAI 2022   | [Reconciling Cognitive Modeling with Knowledge Forgetting: A Continuous Time-aware Neural Network Approach](https://www.semanticscholar.org/paper/Reconciling-Cognitive-Modeling-with-Knowledge-A-Ma-Wang/d3b4115906be4939b7f93736090ec1844d9ae591) | 
-| LPKT-S    | TKDE 2022    | [Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing](https://ieeexplore.ieee.org/document/9950313)                                                                                                                       | 
-| KPT       | CIKM 2017    | [Tracking knowledge proficiency of students with educational priors](https://dl.acm.org/doi/10.1145/3132847.3132929)                                                                                                                                | 
-| LBKT      | KDD 2023     | [Learning Behavior-oriented Knowledge Tracing](http://staff.ustc.edu.cn/~huangzhy/files/papers/BihanXu-KDD2023.pdf)                                                                                                                                 | 
-| ENAS-KT   | NeurIPS 2023 | [Evolutionary Neural Architecture Search for Transformer in Knowledge Tracing](https://arxiv.org/abs/2310.01180)                                                                                                                                    | 
+- (WWW 2019) [Augmenting Knowledge Tracing by Considering Forgetting Behavior](https://dl.acm.org/doi/10.1145/3308558.3313565) DKTForget
+- (KDD 2021) [Learning Process-consistent Knowledge Tracing](http://staff.ustc.edu.cn/~qiliuql/files/Publications/Shuanghong-Sheng-KDD21.pdf) LPKT
+- (WSDM 2021) [Temporal cross-effects in knowledge tracing](https://dl.acm.org/doi/10.1145/3437963.3441802) HawkesKT
+- (CIKM 2022) [Knowledge Tracing Model with Learning and Forgetting Behavior](https://dl.acm.org/doi/abs/10.1145/3511808.3557622) LFBKT
+- (IJCAI 2022) [Reconciling Cognitive Modeling with Knowledge Forgetting: A Continuous Time-aware Neural Network Approach](https://www.semanticscholar.org/paper/Reconciling-Cognitive-Modeling-with-Knowledge-A-Ma-Wang/d3b4115906be4939b7f93736090ec1844d9ae591) CT-NCM
+- (TKDE 2022) [Monitoring Student Progress for Learning Process-Consistent Knowledge Tracing](https://ieeexplore.ieee.org/document/9950313) LPKT-S
+- (CIKM 2017) [Tracking knowledge proficiency of students with educational priors](https://dl.acm.org/doi/10.1145/3132847.3132929) KPT
+- (KDD 2023) [Learning Behavior-oriented Knowledge Tracing](http://staff.ustc.edu.cn/~huangzhy/files/papers/BihanXu-KDD2023.pdf) LBKT
+- (NeurIPS 2023) [Evolutionary Neural Architecture Search for Transformer in Knowledge Tracing](https://arxiv.org/abs/2310.01180) ENAS-KT
 
 ### Deep learning+relation-aware+graph free
-
-| Name    | Published | Paper                                                                                                        | 
-|:-------:|:---------:|:------------------------------------------------------------------------------------------------------------:|
-| P-DKTC  | ICDM 2018 | [Prerequisite-Driven Deep Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/8594828)          | 
-| MF_DAKT | CIKM 2021 | [Multi-Factors Aware Dual-Attentional Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3459637.3482372) | 
-| CMKT    | TLT 2022  | [CMKT: Concept map driven knowledge tracing](https://ieeexplore.ieee.org/abstract/document/9850398/)         | 
-| RKT     | CIKM 2020 | [RKT: Relation-Aware Self-Attention for Knowledge Tracing](https://arxiv.org/pdf/2008.12736.pdf)             | 
+- (ICDM 2018) [Prerequisite-Driven Deep Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/8594828) P-DKTC
+- (CIKM 2021) [Multi-Factors Aware Dual-Attentional Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3459637.3482372) MF_DAKT
+- (TLT 2022) [CMKT: Concept map driven knowledge tracing](https://ieeexplore.ieee.org/abstract/document/9850398/) CMKT
+- (CIKM 2020) [RKT: Relation-Aware Self-Attention for Knowledge Tracing](https://arxiv.org/pdf/2008.12736.pdf) RKT
 
 ### Deep learning+relation-aware+graph based
-
-| Name  | Published      | Paper                                                                                                                                        | 
-|:-----:|:--------------:|:--------------------------------------------------------------------------------------------------------------------------------------------:|
-| GKT   | WI 2019        | [Graph-based Knowledge Tracing: Modeling Student Proficiency Using Graph Neural Network](https://dl.acm.org/doi/abs/10.1145/3350546.3352513) | 
-| SKT   | ICDM 2020      | [Structure-based Knowledge Tracing: An Influence Propagation View](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9338285)         | 
-| GIKT  | ECML PKDD 2020 | [GIKT: A Graph-Based Interaction Model for Knowledge Tracing](https://link.springer.com/chapter/10.1007/978-3-030-67658-2_18)                | 
-| PEBG  | IJCAI 2020     | [Improving Knowledge Tracing via Pre-training Question Embeddings](https://arxiv.org/pdf/2012.05031.pdf)                                     | 
-| HGKT  | SIGIR 2022     | [Introducing Problem Schema with Hierarchical Exercise Graph for Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3477495.3532004)      | 
-| AGKT  | EDM 2022       | [Automatical Graph-based Knowledge Tracing](https://zenodo.org/record/6853057)                                                               | 
-| DGMN  | TKDE 2022      | [Deep graph memory networks for forgetting-robust knowledge tracing](https://arxiv.org/abs/2108.08105)                                       | 
-| MVGKT | TLT 2023       | [Multi-Variate Knowledge Tracking based on Graph Neural Network in ASSISTments](https://ieeexplore.ieee.org/abstract/document/10202591)      | 
+- (WI 2019) [Graph-based Knowledge Tracing: Modeling Student Proficiency Using Graph Neural Network](https://dl.acm.org/doi/abs/10.1145/3350546.3352513) GKT
+- (ICDM 2020) [Structure-based Knowledge Tracing: An Influence Propagation View](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9338285) SKT
+- (ECML PKDD 2020) [GIKT: A Graph-Based Interaction Model for Knowledge Tracing](https://link.springer.com/chapter/10.1007/978-3-030-67658-2_18) GIKT
+- (IJCAI 2020) [Improving Knowledge Tracing via Pre-training Question Embeddings](https://arxiv.org/pdf/2012.05031.pdf) PEBG
+- (SIGIR 2022) [Introducing Problem Schema with Hierarchical Exercise Graph for Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3477495.3532004) HGKT
+- (EDM 2022) [Automatical Graph-based Knowledge Tracing](https://zenodo.org/record/6853057) AGKT
+- (TKDE 2022) [Deep graph memory networks for forgetting-robust knowledge tracing](https://arxiv.org/abs/2108.08105) DGMN
+- (TLT 2023) [Multi-Variate Knowledge Tracking based on Graph Neural Network in ASSISTments](https://ieeexplore.ieee.org/abstract/document/10202591) MVGKT
 
 ### Deep learning+text-aware
-
-| Name  | Published | Paper                                                                                                                              | 
-|:-----:|:---------:|:----------------------------------------------------------------------------------------------------------------------------------:|
-| EERNN | AAAI 2018 | [Exercise-enhanced sequential modeling for student performance prediction](https://ojs.aaai.org/index.php/AAAI/article/view/11864) | 
-| EKT   | TKDE 2019 | [EKT: Exercise-Aware Knowledge Tracing for Student Performance Prediction](https://ieeexplore.ieee.org/document/8744302)           | 
-| qDKT  | EDM 2020  | [qDKT: Question-centric Deep Knowledge Tracing](https://people.umass.edu/~andrewlan/papers/20edm-qdkt.pdf)                         | 
+- (AAAI 2018) [Exercise-enhanced sequential modeling for student performance prediction](https://ojs.aaai.org/index.php/AAAI/article/view/11864) EERNN
+- (TKDE 2019) [EKT: Exercise-Aware Knowledge Tracing for Student Performance Prediction](https://ieeexplore.ieee.org/document/8744302) EKT
+- (EDM 2020) [qDKT: Question-centric Deep Knowledge Tracing](https://people.umass.edu/~andrewlan/papers/20edm-qdkt.pdf) qDKT
 
 ### Causal based
-
-| Name    | Published     | Paper                                                                                                                                                          | 
-|:-------:|:-------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| CMKT    | CIKM 2023     | [Counterfactual Monotonic Knowledge Tracing for Assessing Students’ Dynamic Mastery of Knowledge Concepts](https://dl.acm.org/doi/abs/10.1145/3583780.3614827) | 
-| CORE    | Arxiv         | [Do We Fully Understand Students’ Knowledge States? Identifying and Mitigating Answer Bias in Knowledge Tracing](https://arxiv.org/abs/2308.07779)             | 
-| GraphCA | IEEE/CAA 2023 | [GraphCA: Learning From Graph Counterfactual Augmentation for Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/10266657)                       | 
+- (CIKM 2023) [Counterfactual Monotonic Knowledge Tracing for Assessing Students’ Dynamic Mastery of Knowledge Concepts](https://dl.acm.org/doi/abs/10.1145/3583780.3614827) CMKT
+- (Arxiv) [Do We Fully Understand Students’ Knowledge States? Identifying and Mitigating Answer Bias in Knowledge Tracing](https://arxiv.org/abs/2308.07779) CORE
+- (IEEE/CAA 2023) [GraphCA: Learning From Graph Counterfactual Augmentation for Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/10266657) GraphCA
 
 ## CAT
-| Name      | Published      | Paper                                                                                                                                                             |
-|:---------:|:--------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| MFI       | Routledge 1980 |[Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248)                                            |
-| KLI       | APM 1996       |[A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303)                                  |
-| MAAT      | ICDM 2020      |[Quality meets Diversity: A Model-Agnostic Framework for Computerized Adaptive Testing](https://ieeexplore.ieee.org/abstract/document/9338437/)                    |
-| BOBCAT    | IJCAI 2021     |[BOBCAT: Bilevel Optimization-Based Computerized Adaptive Testing](https://arxiv.org/abs/2108.07386)                                                               |
-| NCAT      | AAAI 2022      |[Fully Adaptive Framework:Neural Computerized Adaptive Testing for Online Education](https://ojs.aaai.org/index.php/AAAI/article/view/20399)                       |
-| GMOCAT    | SIGKDD 2023    |[GMOCAT A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3580305.3599367)                             |
-| BECAT     | NIPS 2023      |[A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H)                                                       |
-| SECAT     | CIKM 2023      |[Search-Efficient Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3583780.3615049)                                                               |
+- (Routledge 1980) [Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248) MFI
+- (APM 1996) [A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303) KLI
+- (ICDM 2020) [Quality meets Diversity: A Model-Agnostic Framework for Computerized Adaptive Testing](https://ieeexplore.ieee.org/abstract/document/9338437/) MAAT
+- (IJCAI 2021) [BOBCAT: Bilevel Optimization-Based Computerized Adaptive Testing](https://arxiv.org/abs/2108.07386) BOBCAT
+- (AAAI 2022) [Fully Adaptive Framework:Neural Computerized Adaptive Testing for Online Education](https://ojs.aaai.org/index.php/AAAI/article/view/20399) NCAT
+- (SIGKDD 2023) [GMOCAT A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3580305.3599367) GMOCAT
+- (NIPS 2023) [A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H) BECAT
+- (CIKM 2023) [Search-Efficient Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3583780.3615049) SECAT
 
 
 # Dataset Introduction
-
-| Name      | Published  | Paper                                                                                                             |
-|:---------:|:----------:|:-----------------------------------------------------------------------------------------------------------------:|
-| MoocRader | SIGIR 2023 | [MoocRadar: A Fine-grained and Multi-aspect Knowledge Repository for Improving Cognitive Student Modeling in MOOCs](https://arxiv.org/abs/2304.02205) |
-| MoocCubeX | CIKM 2021  | [MOOCCubeX: A Large Knowledge-centered Repository for Adaptive Learning in MOOCs](https://dl.acm.org/doi/abs/10.1145/3459637.3482010)                                   |
-| SLP       | ICCE 2021  | [SLP: A Multi-Dimensional and Consecutive Dataset from K-12 Education](https://aic-fe.bnu.edu.cn/fj/2021-ICCE-SLP.pdf)                                              |
+- (SIGIR 2023) [MoocRadar: A Fine-grained and Multi-aspect Knowledge Repository for Improving Cognitive Student Modeling in MOOCs](https://arxiv.org/abs/2304.02205) MoocRader
+- (CIKM 2021) [MOOCCubeX: A Large Knowledge-centered Repository for Adaptive Learning in MOOCs](https://dl.acm.org/doi/abs/10.1145/3459637.3482010) MoocCubeX
+- (ICCE 2021) [SLP: A Multi-Dimensional and Consecutive Dataset from K-12 Education](https://aic-fe.bnu.edu.cn/fj/2021-ICCE-SLP.pdf) SLP
