@@ -12,18 +12,18 @@
 | IJCAI     | International Joint Conference on Artificial Intelligence                          | CCF-A |
 | MM        | ACM International Conference on Multimedia                                         | CCF-A |
 | WSDM      | ACM International Conference on Web Search and Data Mining                         | CCF-B |
-| SIGCSE    | ACM Special Interest Group on Computer Science Education Conference                | CCF-A |
-| ICER      | ACM Conference on International Computing Education Research                       | CCF-A |
-| L@S       | ACM Conference on Learning at Scale                                                | CCF-A |
-| SIGITE    | ACM Conference on Information Technology Education                                 | CCF-B |
-| AIED      | International Conference on Artificial Intelligence in Education                   | CCF-B |
-| ITiCSE    | Annual Conference on Innovation and Technology in Computer Science Education       | CCF-B |
-| ICLS      | International Conference of the Learning Sciences                                  | CCF-B |
-| FIE       | Frontiers in Education                                                             | CCF-B |
-| TALE      | IEEE International Conference on Teaching, Assessment and Learning for Engineering | CCF-B |
-| EDUCON    | IEEE Global Engineering Education Conference                                       | CCF-B |
-| EDUNINE   | IEEE World Engineering Education Conference                                        | CCF-B |
-| EDM       | Educational Data Mining                                                            | CCF-B |
+| SIGCSE    | ACM Special Interest Group on Computer Science Education Conference                | - |
+| ICER      | ACM Conference on International Computing Education Research                       | - |
+| L@S       | ACM Conference on Learning at Scale                                                | - |
+| SIGITE    | ACM Conference on Information Technology Education                                 | - |
+| AIED      | International Conference on Artificial Intelligence in Education                   | - |
+| ITiCSE    | Annual Conference on Innovation and Technology in Computer Science Education       | - |
+| ICLS      | International Conference of the Learning Sciences                                  | - |
+| FIE       | Frontiers in Education                                                             | - |
+| TALE      | IEEE International Conference on Teaching, Assessment and Learning for Engineering | - |
+| EDUCON    | IEEE Global Engineering Education Conference                                       | - |
+| EDUNINE   | IEEE World Engineering Education Conference                                        | - |
+| EDM       | Educational Data Mining                                                            | - |
 
 Journals
 --
