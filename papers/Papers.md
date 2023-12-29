@@ -154,16 +154,16 @@
 | GraphCA | IEEE/CAA 2023 | [GraphCA: Learning From Graph Counterfactual Augmentation for Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/10266657)                       | 
 
 ## CAT
-| Name      | Published      | Paper                                                                                                                                                            |
-|:---------:|:--------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
-| MFI       | Routledge 1980 |[Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248)                                           |
-| KLI       | APM 1996       |[A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303)                                 |
-| MAAT      | ICDM 2020      |[Quality meets Diversity: A Model-Agnostic Framework for Computerized Adaptive Testing](https://ieeexplore.ieee.org/abstract/document/9338437/)                   |
-| BOBCAT    | IJCAI 2021     |[BOBCAT: Bilevel Optimization-Based Computerized Adaptive Testing](https://arxiv.org/abs/2108.07386)                                                              |
-| NCAT      | AAAI 2022      |[Fully Adaptive Framework:Neural Computerized Adaptive Testing for Online Education](https://ojs.aaai.org/index.php/AAAI/article/view/20399)                      |
-| GMOCAT    | SIGKDD 2023    |[GMOCAT A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3580305.3599367)                            |
-| BECAT     | NIPS 2023      |[A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H)                                                      |
-| SECAT     | CIKM 2023      |[Search-Efficient Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3583780.3615049)                                                              |
+| Name      | Published      | Paper                                                                                                                                                             |
+|:---------:|:--------------:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| MFI       | Routledge 1980 |[Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248)                                            |
+| KLI       | APM 1996       |[A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303)                                  |
+| MAAT      | ICDM 2020      |[Quality meets Diversity: A Model-Agnostic Framework for Computerized Adaptive Testing](https://ieeexplore.ieee.org/abstract/document/9338437/)                    |
+| BOBCAT    | IJCAI 2021     |[BOBCAT: Bilevel Optimization-Based Computerized Adaptive Testing](https://arxiv.org/abs/2108.07386)                                                               |
+| NCAT      | AAAI 2022      |[Fully Adaptive Framework:Neural Computerized Adaptive Testing for Online Education](https://ojs.aaai.org/index.php/AAAI/article/view/20399)                       |
+| GMOCAT    | SIGKDD 2023    |[GMOCAT A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3580305.3599367)                             |
+| BECAT     | NIPS 2023      |[A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H)                                                       |
+| SECAT     | CIKM 2023      |[Search-Efficient Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3583780.3615049)                                                               |
 
 
 # Dataset Introduction
