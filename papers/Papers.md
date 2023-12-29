@@ -36,7 +36,12 @@
 - (ESWA 2023) [Global and Local Neural Cognitive Modeling for Student Performance Prediction](https://www.sciencedirect.com/science/article/abs/pii/S0957417423021395) GLNC
 - (TKDE 2023) [Multivariate Cognitive Response Framework for Student Performance Prediction on MOOC](https://ieeexplore.ieee.org/abstract/document/10210482) MvCRF
 - (Arxiv) [Multi-Dimensional Ability Diagnosis for Machine Learning Algorithms](https://arxiv.org/abs/2307.07134) Camilla
-
+- (CIKM 2023) [Homogeneous Cohort-Aware Group Cognitive Diagnosis: A Multi-grained Modeling Perspective](https://dl.acm.org/doi/abs/10.1145/3583780.3615287) Camilla
+- (CIKM 2023) [Simulating Student Interactions with Two-stage Imitation Learning for Intelligent Educational Systems](https://dl.acm.org/doi/abs/10.1145/3583780.3615060) DAISim
+- (ECAI 2023) [QCCDM: A Q-Augmented Causal Cognitive Diagnosis Model for Student Learning](https://github.com/lswhim/CDM_ILOG) QCCDM
+- (ICONIP 2023) [A Causality-Based Interpretable Cognitive Diagnosis Model](https://link.springer.com/chapter/10.1007/978-981-99-8067-3_16) CBICDM
+- (Arxiv 2023) [Enhancing Cognitive Diagnosis using Un-interacted Exercises: A Collaboration-aware Mixed Sampling Approach](https://arxiv.org/abs/2312.10110) CMES
+- (Arxiv 2023) [Zero-1-to-3: Domain-level Zero-shot Cognitive Diagnosis via One Batch of Early-bird Students towards Three Diagnostic Objectives](https://arxiv.org/abs/2312.13434) Zero-1-to-3
 
 ## KT
 
