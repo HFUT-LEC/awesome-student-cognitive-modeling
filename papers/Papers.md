@@ -71,7 +71,20 @@
 - (KBS 2021) [Time-and-Concept Enhanced Deep Multidimensional Item Response Theory for interpretable Knowledge Tracing](https://www.sciencedirect.com/science/article/pii/S0950705121000824) TC-MIRT
 - (CIKM 2023) [No Length Left Behind: Enhancing Knowledge Tracing for Modeling Sequences of Excessive or Insufficient Lengths](https://dl.acm.org/doi/abs/10.1145/3583780.3614988) SFKT
 - (ICDM 2023) [Cognition-Mode Aware Variational Representation Learning Framework for Knowledge Tracing](https://arxiv.org/abs/2309.01179) CMVF
-
+- (CIKM 2023) [Forgetting-aware Linear Bias for Attentive Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3583780.3615191) FoLiBi
+- (ESWA 2023) [Response speed enhanced fine-grained knowledge tracing: A multi-task learning perspective](https://www.sciencedirect.com/science/article/pii/S095741742302609X) FKT
+- (CIKM 2023) [Continuous Personalized Knowledge Tracing: Modeling Long-Term Learning in Online Environments](https://dl.acm.org/doi/abs/10.1145/3583780.3614822) CPKT
+- (MM 2023) [Adversarial Bootstrapped Question Representation Learning for Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3581783.3612044) ABQR
+- (ESWA 2023) [Heterogeneous graph-based knowledge tracing with spatiotemporal evolution](https://www.sciencedirect.com/science/article/pii/S0957417423027513) TSKT
+- (TLT 2023) [AAKT: Enhancing Knowledge Tracing with Alternate Autoregressive Modeling](https://www.techrxiv.org/doi/full/10.36227/techrxiv.24487747.v1) AAKT
+- (ESWA 2023) [Towards More Accurate and Interpretable Model: Fusing Multiple Knowledge Relations into Deep Knowledge Tracing](https://www.sciencedirect.com/science/article/pii/S0957417423030750) DKTMR
+- (AHPCAI 2023) [A deep knowledge tracing model based on multi-head self-attention mechanism](https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12941/129412N/A-deep-knowledge-tracing-model-based-on-multi-head-self/10.1117/12.3011559.short#_=_) MA-DKT
+- (TLT 2023) [OPKT: Enhancing Knowledge Tracing with Optimized Pre-training Mechanisms in Intelligent Tutoring](https://ieeexplore.ieee.org/abstract/document/10328390) OPKT
+- (Arxiv 2023) [Interpretable Knowledge Tracing via Response Influence-based Counterfactual Reasoning](https://arxiv.org/abs/2312.10045) RCKT
+- (TKDD 2023) [Pre-training uestion Embeddings for Improving Knowledge Tracing with Self-supervised Bi-graph Co-contrastive Learning](https://dl.acm.org/doi/abs/10.1145/3638055) BiCo
+- (ESWA 2023) [Question-response Representation with Dual-level Contrastive Learning for Improving Knowledge Tracing](https://www.sciencedirect.com/science/article/pii/S0020025523016183) QRCL
+- (LAK 2024) [Investigating Algorithmic Bias on Bayesian Knowledge Tracing and Carelessness Detectors](https://learninganalytics.upenn.edu/ryanbaker/lak24-47-4.pdf)
+  
 ### Deep learning-memory aware
 - (WWW 2017) [Dynamic Key-Value Memory Networks for Knowledge Tracing](https://arxiv.org/pdf/1611.08108.pdf) DKVMN
 - (SIGIR 2019) [Knowledge Tracing with Sequential Key-Value Memory Networks](https://dl.acm.org/doi/10.1145/3331184.3331195) SKVMN
