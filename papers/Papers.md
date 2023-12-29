@@ -1,12 +1,10 @@
 # Awesome-EduPapers
 
 ## Survey
+- (Arxiv 2021) [A Survey of Knowledge Tracing](https://arxiv.org/abs/2105.15106)
+- (Knowledge-Based Systems 2022) [A survey on deep learning based knowledge tracing](https://www.sciencedirect.com/science/article/pii/S0950705122011297)
+- (ACM 2023) [Knowledge Tracing: A Survey](https://dl.acm.org/doi/full/10.1145/3569576)
 
-| Published                    | Paper                                                                                                                    |
-|:----------------------------:|:------------------------------------------------------------------------------------------------------------------------:|
-| Arxiv 2021                   | [A Survey of Knowledge Tracing](https://arxiv.org/abs/2105.15106)                                                        |
-| Knowledge-Based Systems 2022 | [A survey on deep learning based knowledge tracing](https://www.sciencedirect.com/science/article/pii/S0950705122011297) |
-| ACM 2023                     | [Knowledge Tracing: A Survey](https://dl.acm.org/doi/full/10.1145/3569576)                                               |
 
 ## CD
 
