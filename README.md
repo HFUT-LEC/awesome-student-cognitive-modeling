@@ -37,6 +37,10 @@ We collect the commonly used datasets and listed them here.
 | Eedi_2020_Task3&4        | ✔️ | images    | tree | [doc](./datasets/Eedi_2020_Task3&4.md)，[download](https://dqanonymousdata.blob.core.windows.net/neurips-public/data.zip) |
 | Statics - Fall 2011      | ✖️ | web pages | ✖️ | [doc](./datasets/Statics%20-%20Fall%202011.md)，[download](https://pslcdatashop.web.cmu.edu/Export?datasetId=507) |
 | MoocRadar                | ✔️ | ✔️ | ✖️ | [doc](./datasets/MoocRadar.md)，[download](https://github.com/THU-KEG/MOOC-Radar)，[paper](https://arxiv.org/abs/2304.02205) |
+| MoocCubeX              | - | - | - | [paper](https://dl.acm.org/doi/abs/10.1145/3459637.3482010) |
+| SLP                    | - | - | - | [paper](https://aic-fe.bnu.edu.cn/fj/2021-ICCE-SLP.pdf) |
+| MooPer                 | - | - | - | [paper](https://link.springer.com/chapter/10.1007/978-981-16-6471-7_22) |
+| XES3G5M                | - | - | - | [paper](https://openreview.net/forum?id=Mn9oHNdYCE) |
 | Simulated-5              | ✖️ | ✖️ | ✖️ | [doc](./datasets/Simulated-5.md)，[download](https://github.com/fulna/DKT-1/tree/master/data/synthetic) |
 
 
