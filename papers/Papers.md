@@ -40,8 +40,11 @@
 - (CIKM 2023) [Simulating Student Interactions with Two-stage Imitation Learning for Intelligent Educational Systems](https://dl.acm.org/doi/abs/10.1145/3583780.3615060) DAISim
 - (ECAI 2023) [QCCDM: A Q-Augmented Causal Cognitive Diagnosis Model for Student Learning](https://github.com/lswhim/CDM_ILOG) QCCDM
 - (ICONIP 2023) [A Causality-Based Interpretable Cognitive Diagnosis Model](https://link.springer.com/chapter/10.1007/978-981-99-8067-3_16) CBICDM
-- (Arxiv 2023) [Enhancing Cognitive Diagnosis using Un-interacted Exercises: A Collaboration-aware Mixed Sampling Approach](https://arxiv.org/abs/2312.10110) CMES
-- (Arxiv 2023) [Zero-1-to-3: Domain-level Zero-shot Cognitive Diagnosis via One Batch of Early-bird Students towards Three Diagnostic Objectives](https://arxiv.org/abs/2312.13434) Zero-1-to-3
+- [AAAI 2024, CMES] [Enhancing Cognitive Diagnosis using Un-interacted Exercises: A Collaboration-aware Mixed Sampling Approach](https://arxiv.org/abs/2312.10110)
+- [AAAI 2024, DZCD] [Zero-1-to-3: Domain-level Zero-shot Cognitive Diagnosis via One Batch of Early-bird Students towards Three Diagnostic Objectives](https://arxiv.org/abs/2312.13434)
+- [TKDE 2024, RGDT] [RDGT: Enhancing Group Cognitive Diagnosis with Relation-Guided Dual-Side Graph Transformer](https://ieeexplore.ieee.org/abstract/document/10388466) 
+- [SCIS 2023, FairCD] [Understanding and Improving Fairness in Cognitive Diagnosis](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3852-0;JSESSIONID=70b510e0-ae16-46ad-b44c-002e9792b9a1)
+- [NeurIPS 2023, FairLISA] [FairLISA: Fair User Modeling with Limited Sensitive Attributes Information](https://openreview.net/pdf?id=uFpjPJMkv6)
 
 ## KT
 
