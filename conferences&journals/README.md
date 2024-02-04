@@ -1,5 +1,5 @@
-﻿# Awesome Student Cognitive Assessment Conferences&Journals Catalog
-In order to ensure a clear and systematic organization of conference and journal papers in the field of education,onferences and journals are classified into two main categories: machine learning-focused and education-specific.This inclusion principle allows for a more refined and coherent presentation of relevant papers. By categorizing conferences and journals into these two distinct categories, we aim to facilitate easier access to educational research and promote a better understanding of the specific domains of machine learning and education.
+# Conferences&Journals for AI4ED
+In order to ensure a clear and systematic organization of conference and journal papers in the field of education, conferences and journals are classified into two main categories: machine learning-focused and education-specific.This inclusion principle allows for a more refined and coherent presentation of relevant papers. By categorizing conferences and journals into these two distinct categories, we aim to facilitate easier access to educational research and promote a better understanding of the specific domains of machine learning and education.
 
 ## Conferences
 ### Machine Learning-focused
