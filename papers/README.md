@@ -1,8 +1,8 @@
-# Awesome Student Cognitive Assessment Paper
-Currently, student cognitive assessment is gaining increasing attention, and we have compiled articles on three crucial tasks within this field: cognitive diagnosis, knowledge tracking, and computerized adaptive testing. This compilation aims to assist individuals in quickly understanding the past and future trends in these areas.
+# Awesome Papers on Student Cognitive Modeling
+Currently, there is a growing focus on student cognitive modeling, and we have curated articles that cover three essential tasks within this field: cognitive diagnosis, knowledge tracing, and computerized adaptive testing. The purpose of this compilation is to facilitate a rapid comprehension of both historical and future trends in these specific areas.
 
 
-## CD(Cognitive Diagnosis)
+## Cognitive Diagnosis (CD)
 The cognitive diagnostic model is an approach that assesses students' abilities based on factors such as their interaction records and additional information related to exercises.
 - [Item response theory, IRT](https://books.google.com.vn/books?hl=en&lr=&id=9Xm0AAAAQBAJ&oi=fnd&pg=PR1&dq=Susan%20E%20Embretson%20and%20Steven%20P%20Reise.%20Item%20response%20theory.%20Psychology%20Press,%202013.&ots=Ec6T_xMUYp&sig=uaOHLgo1b22uN_tUNtO6F6Y6h18&redir_esc=y) 
 - [Multidimensional item response theory models, MIRT](https://www.amazon.com/Multidimensional-Response-Statistics-Behavioral-Sciences/dp/0387899758)
@@ -43,8 +43,8 @@ The cognitive diagnostic model is an approach that assesses students' abilities 
 - [SCIS 2023, FairCD] [Understanding and Improving Fairness in Cognitive Diagnosis](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3852-0;JSESSIONID=70b510e0-ae16-46ad-b44c-002e9792b9a1)
 - [NeurIPS 2023, FairLISA] [FairLISA: Fair User Modeling with Limited Sensitive Attributes Information](https://openreview.net/pdf?id=uFpjPJMkv6)
 
-## KT(Knowledge Tracking)
-Knowledge tracking(KT) involves modeling a student's knowledge over time, enabling us to accurately predict the student's mastery of specific concepts and anticipate their performance in future assessments.KT papers are categorized based on the implemented methods, and specific details can be obtained from the titles of each section below.
+## Knowledge Tracing (KT)
+Knowledge tracing(KT) involves modeling a student's knowledge over time, enabling us to accurately predict the student's mastery of specific concepts and anticipate their performance in future assessments.KT papers are categorized based on the implemented methods, and specific details can be obtained from the titles of each section below.
 
 ### Survey
 - [Arxiv 2021] [A Survey of Knowledge Tracing](https://arxiv.org/abs/2105.15106)
@@ -147,16 +147,25 @@ Knowledge tracking(KT) involves modeling a student's knowledge over time, enabli
 - [IEEE/CAA 2023, GraphCA] [GraphCA: Learning From Graph Counterfactual Augmentation for Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/10266657) 
 
 ## CAT(Computerized Adaptive Testing)
-Computerized Adaptive Testing (CAT) is a method that evaluates students' abilities using the CD model and Adaptivsely selects questions for students one by one. Its characteristic is to ensure accurate assessment of student abilities while reducing the length of the test.
+Computerized Adaptive Testing (CAT) is a method that evaluates students' abilities using the CD model and Adaptivsely selects questions for students one by one. Its characteristic is to ensure accurate assessment of student abilities while reducing the length of the test.The existing CAT papers about question selectior can be broadly divided into two categories: one category is non-training-based algorithms, and the other category consists of algorithms where the network of the question selectior requires training, known as learning-based algorithms."Others" is a category used to include papers that address specific issues in CAT, such as addressing selection bias or improving question search efficiency.
 
+### Non-training-based
 - [Routledge 1980, MFI] [Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248) 
 - [APM 1996, KLI] [A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303) 
 - [ICDM 2020, MAAT] [Quality meets Diversity: A Model-Agnostic Framework for Computerized Adaptive Testing](https://ieeexplore.ieee.org/abstract/document/9338437/) 
+- [NIPS 2023, BECAT] [A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H) 
+
+### Learning-based
 - [IJCAI 2021, BOBCAT] [BOBCAT: Bilevel Optimization-Based Computerized Adaptive Testing](https://arxiv.org/abs/2108.07386) 
 - [AAAI 2022, NCAT] [Fully Adaptive Framework:Neural Computerized Adaptive Testing for Online Education](https://ojs.aaai.org/index.php/AAAI/article/view/20399) 
 - [SIGKDD 2023, GMOCAT] [GMOCAT A Graph-Enhanced Multi-Objective Method for Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3580305.3599367) 
-- [NIPS 2023, BECAT] [A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H) 
+
+
+### Others
+- [SIGIR 2022, RAT] [A Robust Computerized Adaptive Testing Approach in Educational Question Retrieval](https://dl.acm.org/doi/abs/10.1145/3477495.3531928)
 - [CIKM 2023, SECAT] [Search-Efficient Computerized Adaptive Testing](https://dl.acm.org/doi/abs/10.1145/3583780.3615049) 
+- [CIKM 2023, UserAIF] [Addressing Selection Bias in Computerized Adaptive Testing: A User-Wise Aggregate Influence Function Approach](https://dl.acm.org/doi/abs/10.1145/3583780.3615455)
+
 
 
 # Dataset Introduction
