@@ -47,15 +47,15 @@ In order to establish a clear and systematic organization of conference and jour
 | UMUAI     | User Modeling and User-Adapted Interaction                         | -        | 3                 |
 | TLT       | IEEE Transactions on Learning Technologies                         | -        | 2                 |
 | ESWA      | Expert Systems with Applications                                   | -        | 1                 |
-| -         | International Journal of Computer-Supported Collaborative Learning | -        | 1                 |
+| ijCSL     | International Journal of Computer-Supported Collaborative Learning | -        | 1                 |
 | -         | Learning Media and Technology                                      | -        | 1                 |
 
 ### Field of Education
 
-| Abbr Name | Full Name                                                          | CCF-Type | SCI-districts |
-| --------- | ------------------------------------------------------------------ | -------- | ----------------- |
-| JEBS      | Journal of Educational and Behavioral Statistics                   | -        | 4                 |
-| -         | Computers & Education                                              | -        | 1                 |
-| -         | British Journal of Educational Technology                          | -        | 1                 |
-| -         | Internet and Higher Education                                      | -        | 1                 |
-| -         | Journal of Engineering Education                                   | -        | 1                 |
+| Abbr Name           | Full Name                                                          |  SCI-districts     |
+| ---------           | ------------------------------------------------------------------ |  ----------------- |
+| JEBS                | Journal of Educational and Behavioral Statistics                   |  4                 |
+| COMPUT EDUC         | Computers & Education                                              |  1                 |
+| BJET                | British Journal of Educational Technology                          |  1                 |
+| -                   | Internet and Higher Education                                      |  1                 |
+| J ENG EDUC          | Journal of Engineering Education                                   |  1                 |
