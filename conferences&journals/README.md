@@ -1,10 +1,9 @@
 # Conferences&Journals for AI4ED
-In order to ensure a clear and systematic organization of conference and journal papers in the field of education, conferences and journals are classified into two main categories: machine learning-focused and education-specific.This inclusion principle allows for a more refined and coherent presentation of relevant papers. By categorizing conferences and journals into these two distinct categories, we aim to facilitate easier access to educational research and promote a better understanding of the specific domains of machine learning and education.
-
+In order to establish a clear and systematic organization of conference and journal papers in the field of education, we have classified them into two primary categories: AI and education. This classification principle ensures a more structured and cohesive presentation of relevant papers. By categorizing conferences and journals into these distinct categories, our goal is to facilitate convenient access to educational research and foster a deeper comprehension of the specific domains of AI and education.
 ## Conferences
-### Machine Learning-focused
+### Field of AI
 
-| Abbr Name | Full Name                                                                          | Type  |
+| Abbr Name | Full Name                                                                          | Index  |
 |:--------- | ---------------------------------------------------------------------------------- | ----- |
 | NeurIPS   | Conference on Neural Information Processing Systems                                | CCF-A |
 | KDD       | ACM Special Interest Group on Knowledge Discovery and Data Mining                  | CCF-A |
@@ -19,26 +18,26 @@ In order to ensure a clear and systematic organization of conference and journal
 | L@S       | ACM Conference on Learning at Scale                                                | - |
 | ICLS      | International Conference of the Learning Sciences                                  | - |
 
-### Education-specific
-| Abbr Name | Full Name                                                                          | Type  |
-|:--------- | ---------------------------------------------------------------------------------- | ----- |
-| SIGCSE    | ACM Special Interest Group on Computer Science Education Conference                | - |
-| ICER      | ACM Conference on International Computing Education Research                       | - |
-| SIGITE    | ACM Conference on Information Technology Education                                 | - |
-| AIED      | International Conference on Artificial Intelligence in Education                   | - |
-| ITiCSE    | Annual Conference on Innovation and Technology in Computer Science Education       | - |
-| FIE       | Frontiers in Education                                                             | - |
-| TALE      | IEEE International Conference on Teaching, Assessment and Learning for Engineering | - |
-| EDUCON    | IEEE Global Engineering Education Conference                                       | - |
-| EDUNINE   | IEEE World Engineering Education Conference                                        | - |
-| EDM       | Educational Data Mining                                                            | - |
+### Field of Education
+| Abbr Name | Full Name                                                                          |
+|:--------- | ---------------------------------------------------------------------------------- |
+| SIGCSE    | ACM Special Interest Group on Computer Science Education Conference                | 
+| ICER      | ACM Conference on International Computing Education Research                       | 
+| SIGITE    | ACM Conference on Information Technology Education                                 |
+| AIED      | International Conference on Artificial Intelligence in Education                   | 
+| ITiCSE    | Annual Conference on Innovation and Technology in Computer Science Education       | 
+| FIE       | Frontiers in Education                                                             | 
+| TALE      | IEEE International Conference on Teaching, Assessment and Learning for Engineering | 
+| EDUCON    | IEEE Global Engineering Education Conference                                       | 
+| EDUNINE   | IEEE World Engineering Education Conference                                        | 
+| EDM       | Educational Data Mining                                                            | 
 
 
 ## Journals
 
-### Machine Learning-focused
+### Field of AI
 
-| Abbr Name | Full Name                                                          | CCF-Type | Cas sub-districts |
+| Abbr Name | Full Name                                                          | CCF-Type | SCI-districts |
 | --------- | ------------------------------------------------------------------ | -------- | ----------------- |
 | TKDE      | IEEE Transactions on Knowledge and Data Engineering                | CCF-A    | 2                 |
 | TOIS      | ACM Transactions on Information Systems                            | CCF-A    | 2                 |
@@ -51,9 +50,9 @@ In order to ensure a clear and systematic organization of conference and journal
 | -         | International Journal of Computer-Supported Collaborative Learning | -        | 1                 |
 | -         | Learning Media and Technology                                      | -        | 1                 |
 
-### Education-specific
+### Field of Education
 
-| Abbr Name | Full Name                                                          | CCF-Type | Cas sub-districts |
+| Abbr Name | Full Name                                                          | CCF-Type | SCI-districts |
 | --------- | ------------------------------------------------------------------ | -------- | ----------------- |
 | JEBS      | Journal of Educational and Behavioral Statistics                   | -        | 4                 |
 | -         | Computers & Education                                              | -        | 1                 |
