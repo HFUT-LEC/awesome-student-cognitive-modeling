@@ -148,7 +148,7 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 
 ## CAT(Computerized Adaptive Testing)
 Computerized Adaptive Testing (CAT) is a method that evaluates students' abilities using the CD model and Adaptivsely selects questions for students one by one. Its characteristic is to ensure accurate assessment of student abilities while reducing the length of the test.The existing CAT papers about question selectior can be broadly divided into two categories: one category is non-training-based algorithms, and the other category consists of algorithms where the network of the question selectior requires training, known as learning-based algorithms."Others" is a category used to include papers that address specific issues in CAT, such as addressing selection bias or improving question search efficiency.
-
+ 
 ### Non-training-based
 - [Routledge 1980, MFI] [Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248) 
 - [APM 1996, KLI] [A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303) 
