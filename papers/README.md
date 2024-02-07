@@ -1,47 +1,71 @@
 # Awesome Papers on Student Cognitive Modeling
 Currently, there is a growing focus on student cognitive modeling, and we have curated articles that cover three essential tasks within this field: cognitive diagnosis, knowledge tracing, and computerized adaptive testing. The purpose of this compilation is to facilitate a rapid comprehension of both historical and future trends in these specific areas.
 
-
 ## Cognitive Diagnosis (CD)
-The cognitive diagnostic model is an approach that assesses students' abilities based on factors such as their interaction records and additional information related to exercises.
+The cognitive diagnostic model is an approach that assesses students' abilities based on factors such as their interaction records and additional information related to exercises.We categorized the papers by the data and methodology used by the CD model, you can get details from the subheadings.
+
+### Tradition methods
 - [Item response theory, IRT](https://books.google.com.vn/books?hl=en&lr=&id=9Xm0AAAAQBAJ&oi=fnd&pg=PR1&dq=Susan%20E%20Embretson%20and%20Steven%20P%20Reise.%20Item%20response%20theory.%20Psychology%20Press,%202013.&ots=Ec6T_xMUYp&sig=uaOHLgo1b22uN_tUNtO6F6Y6h18&redir_esc=y) 
 - [Multidimensional item response theory models, MIRT](https://www.amazon.com/Multidimensional-Response-Statistics-Behavioral-Sciences/dp/0387899758)
 - [JEBS 2009, DINA] [Dina model and parameter estimation: A didactic](https://journals.sagepub.com/doi/10.3102/1076998607309474) 
-- [TIST 2018, FuzzyCDF] [Fuzzy cognitive diagnosis for modeling examinee performance](https://dl.acm.org/doi/10.1145/3168361) 
-- [CIKM 2019, DIRT] [DIRT: Deep Learning Enhanced Item Response Theory for Cognitive Diagnosis](https://dl.acm.org/doi/10.1145/3357384.3358070) 
+
+### Deep learning methods
 - [AAAI 2020, NCDM] [Neural cognitive diagnosis for intelligent education systems](https://ojs.aaai.org/index.php/AAAI/article/view/6080/5936) 
-- [AAAI 2020, NCDM+(CNCD-Q)] [Neural cognitive diagnosis for intelligent education systems](https://ojs.aaai.org/index.php/AAAI/article/view/6080/5936) 
-- [IJCAI 2021, IRR] [Item Response Ranking for Cognitive Diagnosis](https://www.ijcai.org/proceedings/2021/241) 
-- [KDD 2021, ECD] [Modeling Context-aware Features for Cognitive Diagnosis in Student Learning](https://dl.acm.org/doi/abs/10.1145/3447548.3467264) 
-- [SIGIR 2021, RCD] [RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems](https://dl.acm.org/doi/10.1145/3404835.3462932) 
-- [CIKM 2021, CDGK] [Using Knowledge Concept Aggregation towards Accurate Cognitive Diagnosis](https://dl.acm.org/doi/abs/10.1145/3459637.3482311) 
-- [ICDM 2021, MGCD] [Group-Level Cognitive Diagnosis: A Multi-Task Learning Perspective](https://ieeexplore.ieee.org/document/9679064/) 
-- [TKDE 2022, CNCD-F] [Neuralcd: A general framework for cognitive diagnosis](https://ieeexplore.ieee.org/document/9865139/) 
-- [TKDE 2022, KaNCD] [Neuralcd: A general framework for cognitive diagnosis](https://ieeexplore.ieee.org/document/9865139/) 
 - [KDD 2022, ICD] [Incremental Cognitive Diagnosis for Intelligent Education](https://dl.acm.org/doi/10.1145/3534678.3539399) 
-- [KDD 2022, HierCDF] [HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework](https://dl.acm.org/doi/10.1145/3534678.3539486) 
+
+### Text-aware
+- [CIKM 2019, DIRT] [DIRT: Deep Learning Enhanced Item Response Theory for Cognitive Diagnosis](https://dl.acm.org/doi/10.1145/3357384.3358070) 
+- [AAAI 2020, NCDM+(CNCD-Q)] [Neural cognitive diagnosis for intelligent education systems](https://ojs.aaai.org/index.php/AAAI/article/view/6080/5936)
+- [TKDE 2022, CNCD-F] [Neuralcd: A general framework for cognitive diagnosis](https://ieeexplore.ieee.org/document/9865139/) 
+
+### Knowledge-aware
+- [CIKM 2021, CDGK] [Using Knowledge Concept Aggregation towards Accurate Cognitive Diagnosis](https://dl.acm.org/doi/abs/10.1145/3459637.3482311) 
+- [ESWA 2022, ICD] [ICD: A new interpretable cognitive diagnosis model for intelligent tutor systems](https://www.sciencedirect.com/science/article/abs/pii/S0957417422023272) 
 - [CIKM 2022, KSCD] [Knowledge-Sensed Cognitive Diagnosis for Intelligent Education Platforms](https://dl.acm.org/doi/abs/10.1145/3511808.3557372) 
 - [CIKM 2022, CDMFKC] [Cognitive Diagnosis Focusing on Knowledge Concepts](https://dl.acm.org/doi/10.1145/3511808.3557096) 
-- [ESWA 2022, ICD] [ICD: A new interpretable cognitive diagnosis model for intelligent tutor systems](https://www.sciencedirect.com/science/article/abs/pii/S0957417422023272) 
+- [KDD 2022, HierCDF] [HierCDF: A Bayesian Network-based Hierarchical Cognitive Diagnosis Framework](https://dl.acm.org/doi/10.1145/3534678.3539486) 
+- [TKDE 2022, KaNCD] [Neuralcd: A general framework for cognitive diagnosis](https://ieeexplore.ieee.org/document/9865139/) 
 - [TLT 2023, DNeuralCDM] [Dynamic Cognitive Diagnosis: An Educational Priors-Enhanced Deep Knowledge Tracing Perspective](https://ieeexplore.ieee.org/document/10065517) 
-- [SIGIR 2023, DZCD] [Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis](https://dl.acm.org/doi/10.1145/3539618.3591774) 
-- [AAAI 2023, BETA-CD] [BETA-CD: A Bayesian Meta-Learned Cognitive Diagnosis Framework for Personalized Learning](https://ojs.aaai.org/index.php/AAAI/article/view/25629) 
-- [IJCAI 2023, EIRS] [Exploiting Non-Interactive Exercises in Cognitive Diagnosis](https://www.ijcai.org/proceedings/2023/266) 
-- [Arxiv 2023, ID-CDM] [Identifiable Cognitive Diagnosis with Encoder-decoder for Modelling Students’ Performance](https://arxiv.org/pdf/2309.00300v1.pdf) 
-- [AAAI 2023, SCD] [Self-supervised Graph Learning for Long-tailed Cognitive Diagnosis](https://ojs.aaai.org/index.php/AAAI/article/view/25082/24854) 
-- [RECSYS 2023] [What We Evaluate When We Evaluate Recommender Systems: Understanding Recommender Systems’ Performance using Item Response Theory](https://dl.acm.org/doi/pdf/10.1145/3604915.3608809) 
-- [ESWA 2023, GLNC] [Global and Local Neural Cognitive Modeling for Student Performance Prediction](https://www.sciencedirect.com/science/article/abs/pii/S0957417423021395) 
+
+### Student side information-aware
 - [TKDE 2023, MvCRF] [Multivariate Cognitive Response Framework for Student Performance Prediction on MOOC](https://ieeexplore.ieee.org/abstract/document/10210482) 
-- [Arxiv, Camilla] [Multi-Dimensional Ability Diagnosis for Machine Learning Algorithms](https://arxiv.org/abs/2307.07134) 
-- [CIKM 2023, Camilla] [Homogeneous Cohort-Aware Group Cognitive Diagnosis: A Multi-grained Modeling Perspective](https://dl.acm.org/doi/abs/10.1145/3583780.3615287) 
-- [CIKM 2023, DAISim] [Simulating Student Interactions with Two-stage Imitation Learning for Intelligent Educational Systems](https://dl.acm.org/doi/abs/10.1145/3583780.3615060) 
-- [ECAI 2023, QCCDM] [QCCDM: A Q-Augmented Causal Cognitive Diagnosis Model for Student Learning](https://github.com/lswhim/CDM_ILOG) 
-- [ICONIP 2023, CBICDM] [A Causality-Based Interpretable Cognitive Diagnosis Model](https://link.springer.com/chapter/10.1007/978-981-99-8067-3_16) 
-- [AAAI 2024, CMES] [Enhancing Cognitive Diagnosis using Un-interacted Exercises: A Collaboration-aware Mixed Sampling Approach](https://arxiv.org/abs/2312.10110)
-- [AAAI 2024, DZCD] [Zero-1-to-3: Domain-level Zero-shot Cognitive Diagnosis via One Batch of Early-bird Students towards Three Diagnostic Objectives](https://arxiv.org/abs/2312.13434)
-- [TKDE 2024, RGDT] [RDGT: Enhancing Group Cognitive Diagnosis with Relation-Guided Dual-Side Graph Transformer](https://ieeexplore.ieee.org/abstract/document/10388466) 
+- [KDD 2021, ECD] [Modeling Context-aware Features for Cognitive Diagnosis in Student Learning](https://dl.acm.org/doi/abs/10.1145/3447548.3467264) 
+
+### Fairness-aware
 - [SCIS 2023, FairCD] [Understanding and Improving Fairness in Cognitive Diagnosis](https://www.sciengine.com/SCIS/doi/10.1007/s11432-022-3852-0;JSESSIONID=70b510e0-ae16-46ad-b44c-002e9792b9a1)
 - [NeurIPS 2023, FairLISA] [FairLISA: Fair User Modeling with Limited Sensitive Attributes Information](https://openreview.net/pdf?id=uFpjPJMkv6)
+
+### Group based
+- [ICDM 2021, MGCD] [Group-Level Cognitive Diagnosis: A Multi-Task Learning Perspective](https://ieeexplore.ieee.org/document/9679064/) 
+- [CIKM 2023, HomoGCD] [Homogeneous Cohort-Aware Group Cognitive Diagnosis: A Multi-grained Modeling Perspective](https://dl.acm.org/doi/abs/10.1145/3583780.3615287) 
+- [TKDE 2024, RGDT] [RDGT: Enhancing Group Cognitive Diagnosis with Relation-Guided Dual-Side Graph Transformer](https://ieeexplore.ieee.org/abstract/document/10388466) 
+
+### Attention based
+- [SIGIR 2021, RCD] [RCD: Relation Map Driven Cognitive Diagnosis for Intelligent Education Systems](https://dl.acm.org/doi/10.1145/3404835.3462932) 
+- [ESWA 2023, GLNC] [Global and Local Neural Cognitive Modeling for Student Performance Prediction](https://www.sciencedirect.com/science/article/abs/pii/S0957417423021395) 
+
+### Long-tailed Learning based 
+- [AAAI 2023, SCD] [Self-supervised Graph Learning for Long-tailed Cognitive Diagnosis](https://ojs.aaai.org/index.php/AAAI/article/view/25082/24854) 
+- [IJCAI 2023, EIRS] [Exploiting Non-Interactive Exercises in Cognitive Diagnosis](https://www.ijcai.org/proceedings/2023/266) 
+
+### Causal based
+- [ICONIP 2023, CBICDM] [A Causality-Based Interpretable Cognitive Diagnosis Model](https://link.springer.com/chapter/10.1007/978-981-99-8067-3_16) 
+- [ECAI 2023, QCCDM] [QCCDM: A Q-Augmented Causal Cognitive Diagnosis Model for Student Learning](https://github.com/lswhim/CDM_ILOG) 
+
+### Cross-domain Learning based
+- [SIGIR 2023, TechCD] [Leveraging Transferable Knowledge Concept Graph Embedding for Cold-Start Cognitive Diagnosis](https://dl.acm.org/doi/10.1145/3539618.3591774) 
+- [AAAI 2024, DZCD] [Zero-1-to-3: Domain-level Zero-shot Cognitive Diagnosis via One Batch of Early-bird Students towards Three Diagnostic Objectives](https://arxiv.org/abs/2312.13434)
+
+### Others
+- [TIST 2018, FuzzyCDF] [Fuzzy cognitive diagnosis for modeling examinee performance](https://dl.acm.org/doi/10.1145/3168361) 
+- [IJCAI 2021, IRR] [Item Response Ranking for Cognitive Diagnosis](https://www.ijcai.org/proceedings/2021/241) 
+- [AAAI 2023, BETA-CD] [BETA-CD: A Bayesian Meta-Learned Cognitive Diagnosis Framework for Personalized Learning](https://ojs.aaai.org/index.php/AAAI/article/view/25629) 
+- [Arxiv 2023, ID-CDM] [Identifiable Cognitive Diagnosis with Encoder-decoder for Modelling Students’ Performance](https://arxiv.org/pdf/2309.00300v1.pdf) 
+- [CIKM 2023, DAISim] [Simulating Student Interactions with Two-stage Imitation Learning for Intelligent Educational Systems](https://dl.acm.org/doi/abs/10.1145/3583780.3615060) 
+- [AAAI 2024, CMES] [Enhancing Cognitive Diagnosis using Un-interacted Exercises: A Collaboration-aware Mixed Sampling Approach](https://arxiv.org/abs/2312.10110)
+- [RECSYS 2023] [What We Evaluate When We Evaluate Recommender Systems: Understanding Recommender Systems’ Performance using Item Response Theory](https://dl.acm.org/doi/pdf/10.1145/3604915.3608809) 
+- [Arxiv, Camilla] [Multi-Dimensional Ability Diagnosis for Machine Learning Algorithms](https://arxiv.org/abs/2307.07134) 
+
 
 ## Knowledge Tracing (KT)
 Knowledge tracing(KT) involves modeling a student's knowledge over time, enabling us to accurately predict the student's mastery of specific concepts and anticipate their performance in future assessments.KT papers are categorized based on the implemented methods, and specific details can be obtained from the titles of each section below.
@@ -148,10 +172,12 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 
 ## Computerized Adaptive Testing (CAT)
 Computerized Adaptive Testing (CAT) is a method that evaluates students' abilities using the CD model and Adaptivsely selects questions for students one by one. Its characteristic is to ensure accurate assessment of student abilities while reducing the length of the test.The existing CAT papers about question selectior can be broadly divided into two categories: one category is non-training-based algorithms, and the other category consists of algorithms where the network of the question selectior requires training, known as learning-based algorithms."Others" is a category used to include papers that address specific issues in CAT, such as addressing selection bias or improving question search efficiency.
- 
-### Non-training-based
+
+### Tradition methods
 - [Routledge 1980, MFI] [Applications of item response theory to practical testing problems](https://www.taylorfrancis.com/books/9781136557248) 
 - [APM 1996, KLI] [A Global Information Approach to Computerized Adaptive Testing](https://journals.sagepub.com/doi/abs/10.1177/014662169602000303) 
+
+### Non-training-based
 - [ICDM 2020, MAAT] [Quality meets Diversity: A Model-Agnostic Framework for Computerized Adaptive Testing](https://ieeexplore.ieee.org/abstract/document/9338437/) 
 - [NIPS 2023, BECAT] [A Bounded Ability Estimation for Computerized Adaptive Testing](https://openreview.net/forum?id=tAwjG5bM7H) 
 
