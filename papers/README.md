@@ -60,12 +60,13 @@ The cognitive diagnostic model is an approach that assesses students' abilities 
 - [TIST 2018, FuzzyCDF] [Fuzzy cognitive diagnosis for modeling examinee performance](https://dl.acm.org/doi/10.1145/3168361) 
 - [IJCAI 2021, IRR] [Item Response Ranking for Cognitive Diagnosis](https://www.ijcai.org/proceedings/2021/241) 
 - [AAAI 2023, BETA-CD] [BETA-CD: A Bayesian Meta-Learned Cognitive Diagnosis Framework for Personalized Learning](https://ojs.aaai.org/index.php/AAAI/article/view/25629) 
-- [Arxiv 2023, ID-CDM] [Identifiable Cognitive Diagnosis with Encoder-decoder for Modelling Students’ Performance](https://arxiv.org/pdf/2309.00300v1.pdf) 
 - [CIKM 2023, DAISim] [Simulating Student Interactions with Two-stage Imitation Learning for Intelligent Educational Systems](https://dl.acm.org/doi/abs/10.1145/3583780.3615060) 
 - [AAAI 2024, CMES] [Enhancing Cognitive Diagnosis using Un-interacted Exercises: A Collaboration-aware Mixed Sampling Approach](https://arxiv.org/abs/2312.10110)
-- [RECSYS 2023] [What We Evaluate When We Evaluate Recommender Systems: Understanding Recommender Systems’ Performance using Item Response Theory](https://dl.acm.org/doi/pdf/10.1145/3604915.3608809) 
-- [Arxiv, Camilla] [Multi-Dimensional Ability Diagnosis for Machine Learning Algorithms](https://arxiv.org/abs/2307.07134) 
-
+- [AAAI 2024, ACD] [Boosting Neural Cognitive Diagnosis with Student’s Affective State Modeling](https://ojs.aaai.org/index.php/AAAI/article/view/27818)
+- [WWW 2024, ICDM] [Inductive Cognitive Diagnosis for Fast Student Learning in Web-Based Online Intelligent Education Systems](https://arxiv.org/abs/2404.11290)
+- [WWW 2024, ID-CDF] [Towards the Identifiability and Explainability for Personalized Learner Modeling: An Inductive Paradigm](https://arxiv.org/abs/2309.00300) 
+- [WWW 2024, UCD] [Unified Uncertainty Estimation for Cognitive Diagnosis Models](http://arxiv.org/abs/2403.14676)
+- [Arxiv 2024, ASG-CD] [Improving Cognitive Diagnosis Models with Adaptive Relational Graph Neural Networks](http://arxiv.org/abs/2403.05559)
 
 ## Knowledge Tracing (KT)
 Knowledge tracing(KT) involves modeling a student's knowledge over time, enabling us to accurately predict the student's mastery of specific concepts and anticipate their performance in future assessments. KT papers are categorized based on the implemented methods, and specific details can be obtained from the titles of each section below.
@@ -74,6 +75,8 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [Arxiv 2021] [A Survey of Knowledge Tracing](https://arxiv.org/abs/2105.15106)
 - [KBS 2022] [A survey on deep learning based knowledge tracing](https://www.sciencedirect.com/science/article/pii/S0950705122011297)
 - [ACM 2023] [Knowledge Tracing: A Survey](https://dl.acm.org/doi/full/10.1145/3569576)
+- [Arxiv 2024] [A Survey of Explainable Knowledge Tracing](http://arxiv.org/abs/2403.07279)
+- [Arxiv 2024] [A Review of Data Mining in Personalized Education: Current Trends and Future Prospects](https://arxiv.org/abs/2402.17236)
  
 ### Tradition methods
 - [UMUAI 1994, BKT] [Bayesian knowledge tracing](https://link.springer.com/article/10.1007/BF01099821) 
@@ -170,6 +173,14 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [Arxiv, CORE] [Do We Fully Understand Students’ Knowledge States? Identifying and Mitigating Answer Bias in Knowledge Tracing](https://arxiv.org/abs/2308.07779) 
 - [IEEE/CAA 2023, GraphCA] [GraphCA: Learning From Graph Counterfactual Augmentation for Knowledge Tracing](https://ieeexplore.ieee.org/abstract/document/10266657) 
 
+## Others
+- [TOIS 2023, MRT-KT] [Fine-Grained Interaction Modeling with Multi-Relational Transformer for Knowledge Tracing](https://dl.acm.org/doi/10.1145/3580595)
+- [TLT 2024, CoSKT] [CoSKT: A Collaborative Self-supervised Learning Method for Knowledge Tracing](https://ieeexplore.ieee.org/document/10495188/)
+- [SDM 2024, GSKPM] [Graph-based Student Knowledge Profile for Online Intelligent Education](https://epubs.siam.org/doi/10.1137/1.9781611978032.43)
+- [SCIS 2024, CPF] [Personalized Forgetting Mechanism with Concept-Driven Knowledge Tracing](http://arxiv.org/abs/2404.12127)
+- [TOIS 2024, FDKT] [FDKT: Towards an interpretable deep knowledge tracing via fuzzy reasoning](https://dl.acm.org/doi/10.1145/3656167)
+- [Arxiv 2024, LoReKT] [Improving Low-Resource Knowledge Tracing Tasks by Supervised Pre-training and Importance Mechanism Fine-tuning](http://arxiv.org/abs/2403.06725)
+
 ## Computerized Adaptive Testing (CAT)
 Computerized Adaptive Testing (CAT) is a method that evaluates students' abilities using the CD model and Adaptivsely selects questions for students one by one. Its characteristic is to ensure accurate assessment of student abilities while reducing the length of the test. The existing CAT papers about question selectior can be broadly divided into two categories: one category is non-training-based algorithms, and the other category consists of algorithms where the network of the question selectior requires training, known as learning-based algorithms. "Others" is a category used to include papers that address specific issues in CAT, such as addressing selection bias or improving question search efficiency.
 
@@ -193,9 +204,9 @@ Computerized Adaptive Testing (CAT) is a method that evaluates students' abiliti
 - [CIKM 2023, UserAIF] [Addressing Selection Bias in Computerized Adaptive Testing: A User-Wise Aggregate Influence Function Approach](https://dl.acm.org/doi/abs/10.1145/3583780.3615455)
 
 
-
 # Dataset Introduction
 - [SIGIR 2023, MoocRader] [MoocRadar: A Fine-grained and Multi-aspect Knowledge Repository for Improving Cognitive Student Modeling in MOOCs](https://arxiv.org/abs/2304.02205) 
 - [CIKM 2021, MoocCubeX] [MOOCCubeX: A Large Knowledge-centered Repository for Adaptive Learning in MOOCs](https://dl.acm.org/doi/abs/10.1145/3459637.3482010) 
 - [ICCE 2021, SLP] [SLP: A Multi-Dimensional and Consecutive Dataset from K-12 Education](https://aic-fe.bnu.edu.cn/fj/2021-ICCE-SLP.pdf) 
-
+- [NeurIPS 2023, PTADisc] [PTADisc: A Cross-Course Dataset Supporting Personalized Learning in Cold-Start Scenarios](https://openreview.net/pdf?id=EIydMrHBHP)
+- [NeurIPS 2023, XES3G5M] [XES3G5M: A Knowledge Tracing Benchmark Dataset with Auxiliary Information](https://openreview.net/attachment?id=Mn9oHNdYCE&name=pdf)
