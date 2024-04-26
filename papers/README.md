@@ -161,7 +161,8 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [SIGIR 2022, HGKT] [Introducing Problem Schema with Hierarchical Exercise Graph for Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3477495.3532004) 
 - [EDM 2022, AGKT] [Automatical Graph-based Knowledge Tracing](https://zenodo.org/record/6853057) 
 - [TKDE 2022, DGMN] [Deep graph memory networks for forgetting-robust knowledge tracing](https://arxiv.org/abs/2108.08105) 
-- [TLT 2023, MVGKT] [Multi-Variate Knowledge Tracking based on Graph Neural Network in ASSISTments](https://ieeexplore.ieee.org/abstract/document/10202591) 
+- [TLT 2023, MVGKT] [Multi-Variate Knowledge Tracking based on Graph Neural Network in ASSISTments](https://ieeexplore.ieee.org/abstract/document/10202591)
+- [TNNLS 2024, HyperKT] [Dual-Channel Adaptive Scale Hypergraph Encoders With Cross-View Contrastive Learning for Knowledge Tracing](https://ieeexplore.ieee.org/document/10506993)
 
 ### Deep learning+text-aware
 - [AAAI 2018, EERNN] [Exercise-enhanced sequential modeling for student performance prediction](https://ojs.aaai.org/index.php/AAAI/article/view/11864) 
