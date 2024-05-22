@@ -117,6 +117,9 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [TKDD 2023, BiCo] [Pre-training uestion Embeddings for Improving Knowledge Tracing with Self-supervised Bi-graph Co-contrastive Learning](https://dl.acm.org/doi/abs/10.1145/3638055) 
 - [ESWA 2023, QRCL] [Question-response Representation with Dual-level Contrastive Learning for Improving Knowledge Tracing](https://www.sciencedirect.com/science/article/pii/S0020025523016183) 
 - [LAK 2024] [Investigating Algorithmic Bias on Bayesian Knowledge Tracing and Carelessness Detectors](https://learninganalytics.upenn.edu/ryanbaker/lak24-47-4.pdf)
+- [WWW 2024, QDCKT] [Question Difficulty Consistent Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3589334.3645582)
+- [WWW 2024, MIKT] [Interpretable Knowledge Tracing with Multiscale State Representation](https://dl.acm.org/doi/abs/10.1145/3589334.3645373)
+- [WWW 2024, HD-KT] [HD-KT: Advancing Robust Knowledge Tracing via Anomalous Learning Interaction Detection](https://dl.acm.org/doi/abs/10.1145/3589334.3645718)
   
 ### Deep learning-memory aware
 - [WWW 2017, DKVMN] [Dynamic Key-Value Memory Networks for Knowledge Tracing](https://arxiv.org/pdf/1611.08108.pdf) 
@@ -134,7 +137,8 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [ICLR 2023, SimpleKT] [simpleKT: A Simple But Tough-to-Beat Baseline for Knowledge Tracing](https://arxiv.org/abs/2302.06881) 
 - [WWW 2023, DTransformer] [Tracing Knowledge Instead of Patterns: Stable Knowledge Tracing with Diagnostic Transformer](https://yxonic.github.io/pdfs/yin2023tracing.pdf) 
 - [AAAI 2023, DAKTN] [Deep Attentive Model for Knowledge Tracing](https://ojs.aaai.org/index.php/AAAI/article/view/26214) 
-- [WWW 2023, MAKT] [Integrating fine-grained attention into multi-task learning for knowledge tracing](https://link.springer.com/article/10.1007/s11280-023-01190-y) 
+- [WWW 2023, MAKT] [Integrating fine-grained attention into multi-task learning for knowledge tracing](https://link.springer.com/article/10.1007/s11280-023-01190-y)
+- [TLT 2024, SYNSAINT] [Enhanced Deep Knowledge Tracing via Synthetic Embeddings](https://d197for5662m48.cloudfront.net/documents/publicationstatus/207325/preprint_pdf/c2a95dfc700af81fb4e0c819a8541700.pdf)
 
 ### Deep learning+time(forget)-aware
 - [WWW 2019, DKTForget] [Augmenting Knowledge Tracing by Considering Forgetting Behavior](https://dl.acm.org/doi/10.1145/3308558.3313565) 
@@ -181,6 +185,7 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [SCIS 2024, CPF] [Personalized Forgetting Mechanism with Concept-Driven Knowledge Tracing](http://arxiv.org/abs/2404.12127)
 - [TOIS 2024, FDKT] [FDKT: Towards an interpretable deep knowledge tracing via fuzzy reasoning](https://dl.acm.org/doi/10.1145/3656167)
 - [Arxiv 2024, LoReKT] [Improving Low-Resource Knowledge Tracing Tasks by Supervised Pre-training and Importance Mechanism Fine-tuning](http://arxiv.org/abs/2403.06725)
+- [Arxiv 2024] [Enhancing Deep Knowledge Tracing via Diffusion Models for Personalized Adaptive Learning](https://arxiv.org/abs/2405.05134)
 
 ## Computerized Adaptive Testing (CAT)
 Computerized Adaptive Testing (CAT) is a method that evaluates students' abilities using the CD model and Adaptivsely selects questions for students one by one. Its characteristic is to ensure accurate assessment of student abilities while reducing the length of the test. The existing CAT papers about question selectior can be broadly divided into two categories: one category is non-training-based algorithms, and the other category consists of algorithms where the network of the question selectior requires training, known as learning-based algorithms. "Others" is a category used to include papers that address specific issues in CAT, such as addressing selection bias or improving question search efficiency.
