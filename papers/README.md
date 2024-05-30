@@ -67,6 +67,7 @@ The cognitive diagnostic model is an approach that assesses students' abilities 
 - [WWW 2024, ID-CDF] [Towards the Identifiability and Explainability for Personalized Learner Modeling: An Inductive Paradigm](https://arxiv.org/abs/2309.00300) 
 - [WWW 2024, UCD] [Unified Uncertainty Estimation for Cognitive Diagnosis Models](http://arxiv.org/abs/2403.14676)
 - [Arxiv 2024, ASG-CD] [Improving Cognitive Diagnosis Models with Adaptive Relational Graph Neural Networks](http://arxiv.org/abs/2403.05559)
+- [Arxiv 2024, DisKCD] [Disentangling Heterogeneous Knowledge Concept Embedding for Cognitive Diagnosis on Untested Knowledge](https://arxiv.org/abs/2405.16003)
 
 ## Knowledge Tracing (KT)
 Knowledge tracing(KT) involves modeling a student's knowledge over time, enabling us to accurately predict the student's mastery of specific concepts and anticipate their performance in future assessments. KT papers are categorized based on the implemented methods, and specific details can be obtained from the titles of each section below.
@@ -120,6 +121,9 @@ Knowledge tracing(KT) involves modeling a student's knowledge over time, enablin
 - [WWW 2024, QDCKT] [Question Difficulty Consistent Knowledge Tracing](https://dl.acm.org/doi/abs/10.1145/3589334.3645582)
 - [WWW 2024, MIKT] [Interpretable Knowledge Tracing with Multiscale State Representation](https://dl.acm.org/doi/abs/10.1145/3589334.3645373)
 - [WWW 2024, HD-KT] [HD-KT: Advancing Robust Knowledge Tracing via Anomalous Learning Interaction Detection](https://dl.acm.org/doi/abs/10.1145/3589334.3645718)
+- [Arxiv 2024, T-DEKT] [Dual-State Personalized Knowledge Tracing with Emotional Incorporation](https://arxiv.org/abs/2405.16799)
+- [Arxiv 2024, T-DEKT] [Dual-State Personalized Knowledge Tracing with Emotional Incorporation](https://arxiv.org/abs/2405.16799)
+- [Arxiv 2024, Mamba4KT] [Mamba4KT:An Efficient and Effective Mamba-based Knowledge Tracing Model](https://arxiv.org/abs/2405.16542)
   
 ### Deep learning-memory aware
 - [WWW 2017, DKVMN] [Dynamic Key-Value Memory Networks for Knowledge Tracing](https://arxiv.org/pdf/1611.08108.pdf) 
