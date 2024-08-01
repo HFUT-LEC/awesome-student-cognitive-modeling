@@ -1,3 +1,5 @@
+### :point_right:[Organized by Time](./organized_by_time.md)
+
 ## Cognitive Diagnosis (CD)
 ### Research Directions
 
@@ -226,3 +228,4 @@
 | [T-DEKT](https://arxiv.org/abs/2405.16799) | Arxiv | 2024 | Interaction, Q-matrix, Student features, Time | MLP | Student behavior |
 | [Mamba4KT](https://arxiv.org/abs/2405.16542) | Arxiv | 2024 | Interaction, Q-matrix | Mamba,Rasch model | Efficiency |
 
+### :point_right:[Organized by Time](./organized_by_time.md)

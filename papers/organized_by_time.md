@@ -1,3 +1,4 @@
+### :point_right:[Organized by Research Directions](./organized_by_research_directions.md)
 ## Cognitive Diagnosis (CD)
 ### Survey
 
@@ -150,3 +151,5 @@
 - [ITS 2008, AFM] [Comparing two IRT models for conjunctive skills](https://dl.acm.org/doi/10.1007/978-3-540-69132-7_111) 
 - [ICITS 2006, LFA] [Learning Factors Analysis – A General Method for Cognitive Model Evaluation and Improvement](https://link.springer.com/chapter/10.1007/11774303_17) 
 - [UMUAI 1994, BKT] [Bayesian knowledge tracing](https://link.springer.com/article/10.1007/BF01099821)
+
+### :point_right:[Organized by Research Directions](./organized_by_research_directions.md)
