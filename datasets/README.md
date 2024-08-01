@@ -34,3 +34,4 @@ We collect the commonly used datasets and listed them here.
 | PISA2015                 | ✔️ | ✖️ | ✖️ | [download](https://www.oecd.org/pisa/data/2015database/) |
 | PISA2018                 | ✔️ | ✖️ | ✖️ | [download](https://www.oecd.org/pisa/data/2018database/) |
 | PISA2022                 | ✔️ | ✖️ | ✖️ | [download](https://www.oecd.org/pisa/data/2022database/) |
+| SingPAD                 | ✖️ | ✖️ | ✖️ | [paper](https://educationaldatamining.org/edm2024/proceedings/2024.EDM-short-papers.30/2024.EDM-short-papers.30.pdf), [download](https://github.com/itec-hust/singKT-dataset) |
