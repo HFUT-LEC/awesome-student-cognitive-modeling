@@ -18,3 +18,4 @@ We have collected and organized relevant papers, conferences, and journals in th
 | -------------------------------------------------- | ------------------------------------------------------------ |
 | [EduStudio](https://github.com/HFUT-LEC/EduStudio) | A Unified and Templatized Framework for Student Cognitive Modeling including Cognitive Diagnosis(CD) and Knowledge Tracing(KT)|
 | [Leaderboard](https://leaderboard.edustudio.ai/)   | A Leaderboard demonstrating performance of implemented models by EduStudio |
+ [MagicRills](https://magicrills.com) – 🎓 **110+ FREE AI tools for educators** | Lesson planner | Quiz generator | Urdu worksheets | ECCE activities | Kids games | School admin tools | No signup, no credit card required.
